@@ -44,6 +44,8 @@ class Student
     new_student
   end
 
+  def self.find_by_name(name:)
+
   def save
     if self.id
       self.update
